@@ -1,11 +1,24 @@
 {
-  "name": "flipper",
-  "version": "1.0.0",
-  "description": "",
+  "name": "feature-flipper",
+  "version": "0.1.0",
+  "description": "Another feature flipper module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"test": "gulp test",
+		"test-with-coverage": "nyc npm test && nyc report --reporter=lcov",
+    "precommit": "gulp lint",
+    "prepush": "npm test"
   },
   "author": "Rolf Koenders <@rolfkoenders>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "coveralls": "^2.13.1",
+    "gulp": "^3.9.1",
+    "gulp-ava": "^0.18.0",
+    "gulp-xo": "^0.15.0",
+    "husky": "^0.14.3",
+    "nyc": "^11.1.0",
+    "xo": "^0.18.2"
+  }
 }
