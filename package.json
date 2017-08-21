@@ -1,24 +1,35 @@
 {
-  "name": "feature-flipper",
-  "version": "0.1.0",
-  "description": "Another feature flipper module",
-  "main": "index.js",
-  "scripts": {
+	"name": "feature-flipper",
+	"version": "0.1.0",
+	"description": "Another feature flipping module",
+	"main": "index.js",
+	"scripts": {
 		"test": "gulp test",
 		"test-with-coverage": "nyc npm test && nyc report --reporter=lcov",
-    "precommit": "gulp lint",
-    "prepush": "npm test"
-  },
-  "author": "Rolf Koenders <@rolfkoenders>",
-  "license": "MIT",
-  "devDependencies": {
-    "ava": "^0.21.0",
-    "coveralls": "^2.13.1",
-    "gulp": "^3.9.1",
-    "gulp-ava": "^0.18.0",
-    "gulp-xo": "^0.15.0",
-    "husky": "^0.14.3",
-    "nyc": "^11.1.0",
-    "xo": "^0.18.2"
-  }
+		"precommit": "gulp lint",
+		"prepush": "npm test"
+	},
+	"author": "Rolf Koenders <@rolfkoenders>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RolfKoenders/feature-flipper.git"
+	},
+	"homepage": "https://github.com/RolfKoenders/feature-flipper",
+	"bugs": "https://github.com/RolfKoenders/feature-flipper/issues",
+	"nyc": {
+		"exclude": [
+			"gulpfile.js"
+		]
+	},
+	"devDependencies": {
+		"ava": "^0.21.0",
+		"coveralls": "^2.13.1",
+		"gulp": "^3.9.1",
+		"gulp-ava": "^0.18.0",
+		"gulp-xo": "^0.15.0",
+		"husky": "^0.14.3",
+		"nyc": "^11.1.0",
+		"xo": "^0.18.2"
+	}
 }
