@@ -1,6 +1,9 @@
 # Feature-Flipper
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)[![Build Status](https://travis-ci.org/rolfkoenders/feature-flipper.svg?branch=master)](https://travis-ci.org/rolfkoenders/feature-flipper)[![Coverage Status](https://coveralls.io/repos/github/rolfkoenders/feature-flipper/badge.svg?branch=master)](https://coveralls.io/github/rolfkoenders/feature-flipper?branch=master)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![Build Status](https://travis-ci.org/RolfKoenders/feature-flipper.svg?branch=master)](https://travis-ci.org/RolfKoenders/feature-flipper)
+[![Coverage Status](https://coveralls.io/repos/github/RolfKoenders/feature-flipper/badge.svg?branch=master)](https://coveralls.io/github/RolfKoenders/feature-flipper?branch=master)
 
 
 > Another feature flipper module
