@@ -43,7 +43,7 @@ flip.set('somefeature', true);
 console.log( flip.isEnabled('somefeature') ); // true
 
 // To flip the status of the feature
-flip.flip('somefeature')
+flip.flip('somefeature');
 console.log( flip.isEnabled('somefeature') ); // false
 
 // To remove the feature
