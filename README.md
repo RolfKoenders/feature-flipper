@@ -93,8 +93,6 @@ server.get('/somefeature', [
 
 PRs accepted.
 
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
 ## License
 
 MIT © 2017 Rolf Koenders
